@@ -7,7 +7,7 @@ public class PropertyConfig {
 	protected static Properties properties;
 	
 	static {
-		String path = "C:\\Users\\Alienware Laptop\\eclipse-workspace\\BritERP-Project\\utilities\\Properties\\config.properties";
+		String path = "C:\\Users\\Alienware Laptop\\git\\BriteERP-Tysons10\\BritERP-Project\\utilities\\Properties\\config.properties";
 	
 		try {
 			FileInputStream fileInputStream = new FileInputStream(path);

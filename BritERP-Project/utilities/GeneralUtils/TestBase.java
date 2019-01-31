@@ -17,7 +17,7 @@ public class TestBase {
 	
 	@AfterClass
 	public void afterClass() throws InterruptedException {
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 		Driver.close();
 	}
 }

@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 import GeneralUtils.Driver;
 
 public class Homepage {
-	WebDriver driver;
+	private WebDriver driver;
 	
 	public Homepage() {
 		this.driver = Driver.setUp();
@@ -23,7 +23,6 @@ public class Homepage {
 			signInButton.click();
 		} catch (Exception e) {
 			System.out.println("Unable to click sign in button");
-			e.printStackTrace();
 		}
 	}
 }
