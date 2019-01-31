@@ -21,11 +21,13 @@ Git/Github
 
 2) You guys will pull my code and begin automating your tests and created any utilities (page object models) that you need to work on your page
 
-3) Once you finish a test push it back to the repository. DO NOT do all your test and then push all of them. Once you finish one test push it, so that way if there is an error in that one test you can fix it faster than trying to fix 10 test cases at once.
+3) Once you finish a test push it back to the repository. DO NOT do all your test and then push all of them. Once you finish one test push it, 
+so that way if there is an error in that one test you can fix it faster than trying to fix 10 test cases at once.
 
 4) We must use all the tools that they have given us to use because it is a requirement
 
-5) Also you need to create 3 smoke
+5) Also you need to create 3 smoke tests atleast that will test main functionalities if one of your previous tests that you made does that already 
+include that in the smoke tests folder
 
 
 
