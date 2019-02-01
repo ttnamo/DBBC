@@ -1,0 +1,5 @@
+23:58:01.952 INFO  TestBase -Test Base === Driver Set Up
+23:58:06.472 INFO  TestBase -Test Base === Getting Property
+23:58:08.669 INFO  TestBase -Test Base === Clicking BriteERPDemo
+23:58:11.442 INFO  TestBase -Test Base === Clicking login
+23:58:24.998 INFO  TestBase -Test Base === Closing driver

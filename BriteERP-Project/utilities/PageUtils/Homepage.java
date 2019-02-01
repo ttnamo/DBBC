@@ -7,11 +7,13 @@ import org.openqa.selenium.support.PageFactory;
 
 import GeneralUtils.Driver;
 
-public class Homepage {
-	private WebDriver driver;
+
+
+public class Homepage{
+	private static WebDriver driver;
 	
 	public Homepage() {
-		this.driver = Driver.setUp();
+		driver = Driver.setUp();
 		PageFactory.initElements(driver, this);
 	}
 	
