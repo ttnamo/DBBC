@@ -6,6 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import GeneralUtils.Driver;
+import GeneralUtils.FailMessages;
 
 
 
@@ -24,7 +25,7 @@ public class Homepage{
 		try {
 			signInButton.click();
 		} catch (Exception e) {
-			System.out.println("Unable to click sign in button");
+			System.out.println(FailMessages.fail(e));
 		}
 	}
 }

@@ -12,8 +12,8 @@ import PageUtils.SignInPage;
 public class test1 extends TestBase {
 	
 	@Test
-	public void test() throws InterruptedException {
-		DiscussPage.clickChannelsTab();;
+	public void test() {
+		DiscussPage.createChannel("discuss", "Cam");
 	
 	}
 }

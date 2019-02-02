@@ -5,8 +5,8 @@
 		<Property name="basePath">./logs</Property>
 	</Properties>
 	<Appenders>
-		<RollingFile name="File" fileName="${basePath}/results.log"
-			filePattern="${basePath}/results.log-%d{yyyy-MM-dd}.log">
+		<RollingFile name="File" fileName="${basePath}/events.log"
+			filePattern="${basePath}/events.log-%d{yyyy-MM-dd}.log">
 			<PatternLayout
 				pattern="%d{HH:mm:ss.SSS} %-5level %c{1} -%msg%n" />
 			<Policies>

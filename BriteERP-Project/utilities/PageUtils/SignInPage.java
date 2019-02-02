@@ -7,6 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import GeneralUtils.Constants;
 import GeneralUtils.Driver;
+import GeneralUtils.FailMessages;
 
 public class SignInPage {
 	private static WebDriver driver;
@@ -34,9 +35,7 @@ public class SignInPage {
 			passwordTextBox.sendKeys("Wdf4ssa47");
 			loginButton.click();
 		}catch(Exception e) {
-			String methodName = e.getStackTrace()[0].getMethodName();
-			String exception = e.getClass().getSimpleName();
-			System.out.println(exception + ":" + Constants.SENDKEYS_FAIL + methodName);
+			System.out.println(FailMessages.fail(e));
 		}
 	}
 	

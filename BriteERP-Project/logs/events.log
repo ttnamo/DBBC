@@ -1,5 +1,40 @@
-23:58:01.952 INFO  TestBase -Test Base === Driver Set Up
-23:58:06.472 INFO  TestBase -Test Base === Getting Property
-23:58:08.669 INFO  TestBase -Test Base === Clicking BriteERPDemo
-23:58:11.442 INFO  TestBase -Test Base === Clicking login
-23:58:24.998 INFO  TestBase -Test Base === Closing driver
+10:13:44.823 INFO  TestBase -Test Base === Driver Set Up
+10:13:59.735 INFO  TestBase -Test Base === Getting Property
+10:14:07.904 INFO  TestBase -Test Base === Clicking BriteERPDemo
+10:14:12.863 INFO  TestBase -Test Base === Clicking login
+10:14:19.362 INFO  TestBase -Test Base === Closing driver
+10:16:58.551 INFO  TestBase -Test Base === Driver Set Up
+10:17:02.062 INFO  TestBase -Test Base === Getting Property
+10:17:04.377 INFO  TestBase -Test Base === Clicking BriteERPDemo
+10:17:06.837 INFO  TestBase -Test Base === Clicking login
+10:17:12.160 INFO  TestBase -Test Base === Closing driver
+10:22:33.983 INFO  TestBase -Test Base === Driver Set Up
+10:22:37.579 INFO  TestBase -Test Base === Getting Property
+10:22:39.649 INFO  TestBase -Test Base === Clicking BriteERPDemo
+10:22:42.254 INFO  TestBase -Test Base === Clicking login
+10:22:53.367 INFO  TestBase -Test Base === Closing driver
+10:50:09.209 INFO  TestBase -Test Base === Driver Set Up
+10:50:12.375 INFO  TestBase -Test Base === Getting Property
+10:50:14.098 INFO  TestBase -Test Base === Clicking BriteERPDemo
+10:50:16.178 INFO  TestBase -Test Base === Clicking login
+10:50:22.325 INFO  TestBase -Test Base === Closing driver
+11:46:40.491 INFO  TestBase -Test Base === Driver Set Up
+11:46:48.390 INFO  TestBase -Test Base === Getting Property
+11:46:50.774 INFO  TestBase -Test Base === Clicking BriteERPDemo
+11:46:53.923 INFO  TestBase -Test Base === Clicking login
+11:47:03.701 INFO  TestBase -Test Base === Closing driver
+11:50:34.954 INFO  TestBase -Test Base === Driver Set Up
+11:50:42.026 INFO  TestBase -Test Base === Getting Property
+11:50:44.792 INFO  TestBase -Test Base === Clicking BriteERPDemo
+11:50:47.067 INFO  TestBase -Test Base === Clicking login
+11:50:52.261 INFO  TestBase -Test Base === Closing driver
+12:37:27.150 INFO  TestBase -Test Base === Driver Set Up
+12:37:30.467 INFO  TestBase -Test Base === Getting Property
+12:37:32.254 INFO  TestBase -Test Base === Clicking BriteERPDemo
+12:37:34.574 INFO  TestBase -Test Base === Clicking login
+12:37:40.697 INFO  TestBase -Test Base === Closing driver
+12:43:41.189 INFO  TestBase -Test Base === Driver Set Up
+12:43:44.866 INFO  TestBase -Test Base === Getting Property
+12:43:46.405 INFO  TestBase -Test Base === Clicking BriteERPDemo
+12:43:48.716 INFO  TestBase -Test Base === Clicking login
+12:43:54.335 INFO  TestBase -Test Base === Closing driver

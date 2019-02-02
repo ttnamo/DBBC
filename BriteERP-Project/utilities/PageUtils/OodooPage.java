@@ -7,6 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import GeneralUtils.Constants;
 import GeneralUtils.Driver;
+import GeneralUtils.FailMessages;
 
 public class OodooPage {
 	private static WebDriver driver;
@@ -28,10 +29,9 @@ public class OodooPage {
 
 		try {
 			briteErpDemo.click();
+			throw new IllegalArgumentException();
 		} catch (Exception e) {
-			String methodName = e.getStackTrace()[0].getMethodName();
-			String exception = e.getClass().getSimpleName();
-			System.out.println(exception + ":" + Constants.CLICK_FAIL + methodName);
+			System.out.println(FailMessages.fail(e));
 
 		}
 	}
