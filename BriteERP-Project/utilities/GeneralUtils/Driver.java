@@ -6,17 +6,15 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.testng.Reporter;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Driver {
 	protected static WebDriver driver;
 
-	private Driver() {
-	}
-
 	public static WebDriver setUp() {
-		
+
 		String browserType = PropertyConfig.getProperty("browser");
 		
 		if (driver == null) {

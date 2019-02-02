@@ -6,12 +6,15 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import GeneralUtils.Driver;
+import GeneralUtils.FailMessages;
 
-public class Homepage {
-	private WebDriver driver;
+
+
+public class Homepage{
+	private static WebDriver driver;
 	
 	public Homepage() {
-		this.driver = Driver.setUp();
+		driver = Driver.setUp();
 		PageFactory.initElements(driver, this);
 	}
 	
@@ -22,7 +25,7 @@ public class Homepage {
 		try {
 			signInButton.click();
 		} catch (Exception e) {
-			System.out.println("Unable to click sign in button");
+			System.out.println(FailMessages.fail(e));
 		}
 	}
 }
